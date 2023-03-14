@@ -1,0 +1,18 @@
+{
+  "name": "twtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "ngrok": "ngrok http localhost:1337",
+    "twilio": "twilio phone-numbers:update \"+18886085061\" --sms-url=\"http://localhost:1337/sms\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^4.8.0"
+  }
+}
